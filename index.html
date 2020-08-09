@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div  class="quizBody" id="quizBody">
+        <div class="title">
+            <h1>Pakistan Quiz</h1>
+        </div>
+        <hr>
+        <div class="quest" id="quest"></div>
+        <label for="option" class="option"><input type="radio" name="option" value="a"> a. <span class="m" id="opt1"></span></label>
+        <label for="option" class="option"><input type="radio" name="option" value="b"> b. <span class="m" id="opt2"></span></label>
+        <label for="option" class="option"><input type="radio" name="option" value="c"> c. <span class="m" id="opt3"></span></label>
+        <label for="option" class="option"><input type="radio" name="option" value="d"> d. <span class="m" id="opt4"></span></label>
+        <button id="btn" class="nbtn" onclick="nextQuestion()">Next Question</button>
+    </div>
+    <div id="result" class="result" style="display: none;"></div>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
